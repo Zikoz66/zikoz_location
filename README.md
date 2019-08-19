@@ -15,3 +15,5 @@ To install it:
 start after es_extended and essentilmode.
 NativeUI is already included in.
 
+If you want to change prices you have to go in the config.lua.
+
