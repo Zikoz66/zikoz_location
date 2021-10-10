@@ -1,21 +1,9 @@
-Hello, today I am sharing my vehicle rental resource made in full NativeUI reloaded.
+A simple modification for your script.
 
-https://www.youtube.com/watch?v=eUHpqL-KLvc&feature=youtu.be
+This fork just use the normal script without nativeui implemented, for less resource use and more ease of understanding.
 
-The authors are:
+If your goal was to implement it then I advise you to just create a branch with this version for those who do not want to add nativeui because they already have it.
 
-[https://github.com/iTexZoz/NativeUILua_Reloaded]
+For any request or question, here is my discord : Azeroth#8264
 
-[https://github.com/ESX-Org/es_extended]
-
-[https://github.com/kanersps/essentialmode]
-
-You need to es_extended and essentialmode.
-
-To install it:
-
-start after es_extended and essentilmode.
-NativeUI is already included in.
-
-If you want to change prices you have to go in the config.lua.
-
+Have Fun
