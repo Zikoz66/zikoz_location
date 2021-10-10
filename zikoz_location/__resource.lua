@@ -1,10 +1,7 @@
 resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
 
-name 'NativeUILua-Reloaded'
-description 'NativeUILua-Reloaded is UI library for FiveM designed specifically for making interface based on GTA:Online style. (Base source: https://github.com/FrazzIe/NativeUILua ) | (Base NativeUI : https://github.com/Guad/NativeUI) '
 
-
-client_scripts {
+--[[client_scripts {
     "Wrapper/Utility.lua",
 
     "UIElements/UIVisual.lua",
@@ -62,14 +59,16 @@ client_scripts {
 
 client_scripts {
     ".test/Native-Danger.lua"
-}
+}]]
 
 client_scripts {
+    "@NativeUILua_Reloaded/src/NativeUIReloaded.lua",
     'client/zikoz-m.lua',
     'config.lua'
 }
 
 server_scripts {
+    '@mysql-async/lib/MySQL.lua',
     'server/zikoz-s.lua',
     'config.lua'
 }
